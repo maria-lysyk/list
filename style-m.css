@@ -1,0 +1,92 @@
+body{
+  align-items: center;
+  justify-content: center;
+}
+
+.updates{
+    list-style-type: none;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 70%;
+      margin: auto;
+  }
+
+ .sidebar ul li a {
+    display: block;
+    color: black;
+}
+
+.qwe{
+    height: 39px;
+    border: 2px solid rgb(81, 155, 174);
+    border-radius: 4px;
+}
+.hide {
+    display: none;
+    background: rgb(235 243 243 / 82%);    
+    border-radius: 15px;
+    padding: 10px;
+    width: 37%;
+    text-align: center;
+    margin: 10px;
+    }
+    
+.show {
+    display: inline-block;
+    flex-basis: 54%;
+    opacity: 0;
+    animation: ani 2.5s forwards;
+}
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+   .updates li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94%;
+    flex-wrap: wrap;
+  } 
+  .updates li p{
+    font-weight: bold;
+    color: rgb(49, 83, 90);
+    font-size: 16px;
+    width: 40%;
+    text-align: center;
+    }
+
+    .updates li button {
+      background: none;
+      border: 2px solid rgb(81, 155, 174);
+      border-radius: 4px;
+      font-weight: bold;
+      color: rgb(49, 83, 90);
+      padding: 3px;
+      height: 30px;
+      margin: 10px 19px;
+      cursor: pointer;
+    }
+    .updates li button:hover {
+        background-color: rgba(229, 241, 241, 0.76);
+      }
+    .updates li button img{
+      height: 20px;
+    }
+    .btn-all-loc-upd {
+        background: none;
+        cursor: pointer;
+        border: 2px solid rgb(81, 155, 174);
+        border-radius: 5px;
+        margin: 0 10px 10px;  
+        font-size: 12px;
+        font-weight: bold;
+        color: rgb(49, 83, 90);
+        padding: 10px;
+        display: flex;
+        margin: auto;
+      }
+      .btn-all-loc-upd:hover {
+        background-color: rgba(229, 241, 241, 0.76);
+      }
